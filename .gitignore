@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.DS_Store
+.env
+.venv
+venv/
+*.csv  # Optional: exclude data files, or commit them if they're essential
