@@ -6,4 +6,4 @@ __pycache__/
 .env
 .venv
 venv/
-*.csv  # Optional: exclude data files, or commit them if they're essential
+data/
