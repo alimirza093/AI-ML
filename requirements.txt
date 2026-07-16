@@ -1,0 +1,16 @@
+# Core data science dependencies
+numpy
+pandas
+matplotlib
+seaborn
+scipy
+scikit-learn
+joblib
+
+# Web app dependency for the heart disease frontend
+streamlit
+
+# Notebook support
+jupyterlab
+notebook
+ipykernel

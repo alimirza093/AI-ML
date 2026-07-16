@@ -6,9 +6,9 @@ import streamlit as st
 
 # Load saved model, scaler, and expected columns from the same folder as this script
 base_dir = Path(__file__).resolve().parent
-model = joblib.load(base_dir / "KNN_heart.pkl")
-scaler = joblib.load(base_dir / "scaler.pkl")
-loaded_columns = joblib.load(base_dir / "columns.pkl")
+model = joblib.load(base_dir / "PKL files/KNN_heart.pkl")
+scaler = joblib.load(base_dir / "PKL files/scaler.pkl")
+loaded_columns = joblib.load(base_dir / "PKL files/columns.pkl")
 
 if callable(loaded_columns):
     expected_columns = loaded_columns()
